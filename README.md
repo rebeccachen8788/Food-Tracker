@@ -1,14 +1,13 @@
 # MealCheck_WaffleHacksProject
-an interactive program that determines local restaurants within the user's radius and returns its location
+A program made by for the WaffleHacks Hackathon!
 
-The primary files in this project are foodMain.py, foodMain2.py, dataScraper.py, gui.py, and userName.py.
+An interactive program that determines local restaurants within the user's radius and returns its location
 
-foodMain.py and foodMain2.py are the same file except that foodMain2.py includes integration with the PyQt5 GUI in gui.py. 
+This program allow users to enter their name, search keywords, and zipcode to find food in their area. 
 
-Both of these files allow users to enter their name, search keywords, and zipcode to find food in their area. 
-In addition, it contains methods to pass to dataScraper.py and search for food with the keywords and zipcode from the user input. 
-Afterwards, it updates the visible information on the gui to display a result to the user.
+It updates the visible information on the gui to display a result to to the user.
 
-userName.py contains information about an individual user and was created with the goal to add authentication and database support in the future.
+The GIF below shows the program in action!
 
-dataScraper.py is the biggest player in the game, and parses data from Google Maps searches of food and zipcodes. 
+
+![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/91577333/191075820-54685e97-a6fd-40ee-b623-03e224bff6e5.gif)
