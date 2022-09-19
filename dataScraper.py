@@ -2,10 +2,12 @@
 # Author: rebeccachen8788
 # Date: 06/19/2022
 
+import chromedriver_autoinstaller
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 
+chromedriver_autoinstaller.install()
 options = webdriver.ChromeOptions()
 options.add_argument('headless')
 
